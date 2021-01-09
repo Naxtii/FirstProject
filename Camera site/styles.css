@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+
+    
+}
+
+.logo {
+    width: 320px;
+    height: 69px;
+}
+
+li, a{
+    list-style: none;
+    font-family: "Montserrat", "sans-serif";
+    font-weight: 500;
+    line-height: 20px;
+    color: rgb(255, 69, 0);
+ 
+}
+
+.services-btn:hover, .about-btn:hover, .FAQ-btn:hover{
+    font-size: 25px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    border-bottom: 3px solid orangered;
+}
+
+button {
+    border-color: orangered;
+    background-color: #24252A;
+    color: orangered;
+    padding: 20px 60px;
+    border-right-style: none;
+   
+    
+}
+button:hover {
+    background-image: linear-gradient(to right, orangered, transparent);
+    color: #24252A;
+    text-decoration: none;
+    border-right-style: none;
+    padding: 20px 60px;
+}
+
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+.container-1 a{
+    text-decoration: none;
+    padding-left: 280px;
+}
+.container-2 a{
+    text-decoration: none;
+    padding-left: 280px;
+}
+    .container-1 a:hover{
+        font-size: 20px;
+      
+    }
+    .container-2 a:hover{
+       font-size: 20px;
+    }
+
+
+
+
+.container-1 {
+    display: flex;
+    color: orangered;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+
+.container-2 {
+    display: flex;
+    color: orangered;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    border-bottom: 3px solid orangered;
+   
+}
+
+.img1 {
+    width: 350px;
+    height: 300px;
+    
+
+}
+        .img2 {
+            width: 350px;
+            height: 300px;
+            padding-top: 50px;
+            
+        }
+            .img3 {
+                width: 350px;
+                height: 300px;
+                padding-top: 35px;
+                padding-bottom: 25px;
+                
+            }
+                .img4 {
+                    width: 350px;
+                    height: 300px;
+                    padding-top: 25px;
+                    
+                   
+                }
+                    .img5 {
+                        width: 350px;
+                        height: 300px;
+                        padding-top: 25px;
+                         padding-bottom: 20px;
+                        
+                    }
+                        .img6 {
+                            width: 350px;
+                            height: 300px;
+                            padding-top: 15px;
+                            padding-bottom: 15px;
+                            
+                        }
+
